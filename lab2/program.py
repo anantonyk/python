@@ -1,0 +1,7 @@
+my_file = open("some.txt", "a+")
+my_file.write("I'm learning Python!\n")
+my_file.close()
+my_file=open("some.txt", "r")
+string = my_file.read()
+my_file.close()
+print(string)
